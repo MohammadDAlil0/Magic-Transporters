@@ -64,18 +64,18 @@ npm watch
 
   - Response:
 
-    ```json
-    {
-      "status": "success",
-      "data": {
-          "name": "Ayham",
-          "weightLimit": 70,
-          "questState": "resting",
-          "missionsCount": 0,
-          "_id": "669641c13b9c4d8ecb83affd"
-      }
+  ```json
+  {
+    "status": "success",
+    "data": {
+        "name": "Ayham",
+        "weightLimit": 70,
+        "questState": "resting",
+        "missionsCount": 0,
+        "_id": "669641c13b9c4d8ecb83affd"
     }
-    ```
+  }
+  ```
 
 - **Load Magic Mover With Items**
 
@@ -83,41 +83,42 @@ npm watch
   - Method: PATCH
   - Request Body:
 
-    ```json
-    {
-      "moverID": "66962219fbddce87c987789d",
-      "itemsID": ["66962224fbddce87c987789f", "66962224fbddce87c988789c"]
-    }
-    ```
+  ```json
+  {
+    "moverID": "66962219fbddce87c987789d",
+    "itemsID": ["66962224fbddce87c987789f", "66962224fbddce87c988789c"]
+  }
+  ```
 
   - Response:
 
-    ```json
-    {
-      "status": "success",
-      "message": "The magic mover is loading items..."
-    }
-    ```
+  ```json
+  {
+    "status": "success",
+    "message": "The magic mover is loading items..."
+  }
+  ```
+
 - **Start Mission**
 
   - URL: /api/v1/movers/startMission
   - Method: PATCH
   - Request Body:
 
-    ```json
-    {
-      "moverID": "66962219fbddce87c987789d"
-    }
-    ```
+  ```json
+  {
+    "moverID": "66962219fbddce87c987789d"
+  }
+  ```
 
   - Response:
 
-    ```json
-    {
-      "status": "success",
-      "message": "Mession has started successfuly!"
-    }
-    ```
+  ```json
+  {
+    "status": "success",
+    "message": "Mession has started successfuly!"
+  }
+  ```
 
 - **End Mission**
 
@@ -125,20 +126,20 @@ npm watch
   - Method: PATCH
   - Request Body:
 
-    ```json
-    {
-      "moverID": "66962219fbddce87c987789d"
-    }
-    ```
+  ```json
+  {
+    "moverID": "66962219fbddce87c987789d"
+  }
+  ```
 
   - Response:
 
-    ```json
-    {
-      "status": "success",
-      "message": "Mission completed successfuly!"
-    }
-    ```
+  ```json
+  {
+    "status": "success",
+    "message": "Mission completed successfuly!"
+  }
+  ```
 - **Get Top Magic Movers**
 
   - URL: /api/v1/movers/getTopMovers
@@ -146,30 +147,30 @@ npm watch
 
   - Response:
 
-    ```json
-    {
-      "status": "success",
-      "result": 2,
-      "data": [
-          {
-              "_id": "669645ca22697627a43f5b2b",
-              "name": "Mohammad Saeed Dalil",
-              "weightLimit": 100,
-              "questState": "resting",
-              "missionsCount": 2,
-              "__v": 0
-          },
-          {
-              "_id": "6696466d22697627a43f5b4a",
-              "name": "Ayham",
-              "weightLimit": 50,
-              "questState": "resting",
-              "missionsCount": 1,
-              "__v": 0
-          }
-      ]
-    }
-    ```
+  ```json
+  {
+    "status": "success",
+    "result": 2,
+    "data": [
+        {
+            "_id": "669645ca22697627a43f5b2b",
+            "name": "Mohammad Saeed Dalil",
+            "weightLimit": 100,
+            "questState": "resting",
+            "missionsCount": 2,
+            "__v": 0
+        },
+        {
+            "_id": "6696466d22697627a43f5b4a",
+            "name": "Ayham",
+            "weightLimit": 50,
+            "questState": "resting",
+            "missionsCount": 1,
+            "__v": 0
+        }
+    ]
+  }
+  ```
 
 ### Magic Items
 
@@ -179,24 +180,23 @@ npm watch
   - Method: PATCH
   - Request Body:
 
-    ```json
-    {
-      "name": "box",
-      "weight": 20
-    }
-    ```
+  ```json
+  {
+    "name": "box",
+    "weight": 20
+  }
+  ```
 
   - Response:
 
-    ```json
-    {
-      "status": "success",
-      "data": {
-          "name": "box",
-          "weight": 20,
-          "_id": "6696467822697627a43f5b4c",
-          "__v": 0
-      }
+  ```json
+  {
+    "status": "success",
+    "data": {
+        "name": "box",
+        "weight": 20,
+        "_id": "6696467822697627a43f5b4c",
+        "__v": 0
     }
-
-    ```
+  }
+  ```
