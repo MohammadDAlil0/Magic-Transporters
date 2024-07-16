@@ -4,7 +4,8 @@ import { IItem } from '../schemas/itemSchemas';
 const itemSchema = new mongoose.Schema({
     name: {
         type: String,
-        required: [true, 'An item must have a name']
+        required: [true, 'An item must have a name'],
+        trim: true
     },
     weight: {
         type: Number,

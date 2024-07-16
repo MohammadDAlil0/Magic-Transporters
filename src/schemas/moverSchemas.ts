@@ -14,7 +14,8 @@ const zodMoverSchema = z.object({
       .string({
         invalid_type_error: 'The name must be a string'
       })
-      .trim(),
+      .trim()
+      .optional(),
     weightLimit: z
       .number({
         required_error: 'WeightLimit is required',

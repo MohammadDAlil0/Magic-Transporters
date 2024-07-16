@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx nodemon"
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "watch": "npx nodemon"
   },
   "author": "Mohammad Saeed Dalil",
   "license": "ISC",

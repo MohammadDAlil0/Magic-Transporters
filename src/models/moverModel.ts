@@ -2,7 +2,10 @@ import mongoose from 'mongoose';
 import { IMover } from '../schemas/moverSchemas';
 
 const moverSchema = new mongoose.Schema({
-    name: String,
+    name: {
+        type: String,
+        trim: true
+    },
     weightLimit: {
         type: Number,
         required: [true, 'A mover must have a weight Limit']

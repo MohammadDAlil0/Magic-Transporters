@@ -21,7 +21,7 @@ const zodItemSchema = z.object({
           required_error: 'Weight is required',
           invalid_type_error: 'Weight must be a number'
         })
-    }).strict('Your request body must have just the following inputs: [name: required, weightLimit: required]')
+    }).strict('Your request body must have just the following inputs: [name: required, weight: required]')
   });
 
 export {IItem, zodItemSchema};

@@ -37,12 +37,12 @@ Magic Transporters is a Node.js application built with Express.js, MongoDB, and 
 5. **Run the Application**
 
 ```bash
-npm build
+npm run build
 npm start
 ```
 For developers:
 ```bash
-npm watch
+npm run watch
 ```
 
 ## API Endpoints
