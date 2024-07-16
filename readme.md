@@ -1,6 +1,6 @@
 # Magic Transporters
 
-Magic Transporters is a Node.js application built with Express.js, MongoDB, and JWT authentication. It provides endpoints for managing Magic Transporters system.
+Magic Transporters is a Node.js application built with Express.js, MongoDB. It provides endpoints for managing Magic Transporters system.
 
 ## Setup Instructions
 
