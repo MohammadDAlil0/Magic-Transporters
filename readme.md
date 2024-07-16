@@ -25,7 +25,7 @@ Magic Transporters is a Node.js application built with Express.js, MongoDB. It p
 
 4. **Environment Variables**
 
-   - Create a .env file in the root directory.
+   - Create a config.env file in the root directory.
    - Add the following environment variables to the .env file:
 
    - ```makefile
